@@ -16,8 +16,8 @@ This project aims to provide a virtual machine running Ubuntu Trusty with an ins
 - vagrant ssh - will give you a root shell on the machine.
 
 # Sonar instance
-- sonar.host.url: http://192.168.23.1:9000/
-- sonar.jdb.url: jdbc:h2:tcp://192.168.23.1:9092/sonar
+- sonar.host.url: http://192.168.23.2:9000/
+- sonar.jdb.url: jdbc:h2:tcp://192.168.23.2:9092/sonar
 - sonar.jdbc.driverClassName: org.h2.Driver
 - sonar.jdbc.username: sonar
 - sonar.jdbc.password: sonar
